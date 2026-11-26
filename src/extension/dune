@@ -1,0 +1,7 @@
+(library
+ (name pi_test_run)
+ (wrapped false)
+ (modes melange)
+ (libraries pi_test_run_core)
+ (preprocess
+  (pps melange.ppx)))
